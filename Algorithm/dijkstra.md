@@ -5,14 +5,14 @@
 ```python
 def dijkstra(start_node):
     dist = [float('inf') for _ in range(N + 1)]
-    q = PriorityQueue()
-    q.put((0, start_node))
-    while q.qsize() > 0:
-        (curr_dist, node) = q.get()
+    q = []
+    heapq.heappush(q, (0, start_node))
+    while q:
+        curr_dist, node = heapq.heappop(q)
         if curr_dist < dist[node]:
             dist[node] = curr_dist
             for key, distance in graph[node].items():
                 new_dist = curr_dist + distance
-                q.put((new_dist, key))
+                heapq.heappush(q, (new_dist, key))
     return dist
 ```
