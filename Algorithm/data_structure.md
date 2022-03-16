@@ -2,6 +2,7 @@
 
 ### 📌 deque
 - BFS에서 활용하는 자료구조
+- 양방향 Queue로써, appendleft 기능 제공
 
 ```python
 # import
@@ -12,6 +13,7 @@ q = deque([])
 
 # append
 q.append(i)
+q.appendleft(i)
 
 # pop
 q.popleft()
