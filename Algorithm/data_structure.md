@@ -17,6 +17,10 @@ q.appendleft(i)
 
 # pop
 q.popleft()
+
+# size
+while q
+len(q)
 ```
 
 ---
@@ -36,6 +40,9 @@ q.put(i)
 
 # pop
 q.get()
+
+# size
+q.qsize()
 ```
 
 ---
@@ -56,4 +63,7 @@ heapq.heappush(q, i)
 
 # pop
 heapq.heappop(q)
+
+# size
+len(q)
 ```
