@@ -8,7 +8,7 @@
 
 ## 💚 HTTP Method in a RESTful API
 
-| HTTP METHOD |   Collection Resource<br>https://youngkwon.site/gallery  | Member resource<br>https://youngkwon.site/gallery/:id |
+| HTTP METHOD |   Collection Resource<br>http://youngkwon.site/gallery  | Member resource<br>http://youngkwon.site/gallery/:id |
 | :---: | :----------: | :---------------: |
 | GET | 모든 리소스를 가져온다. (Retrieve) | :id로 하나의 리소스를 가져온다. (Retrieve) |
 | POST | 리소스를 등록한다. (Create) | 리소스를 등록한다. (Create) |
